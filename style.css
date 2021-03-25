@@ -1,0 +1,10 @@
+body {
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+header {
+  position: relative;
+  height: 20%;
+  background-color: lightblue;
+}/*# sourceMappingURL=style.css.map */
