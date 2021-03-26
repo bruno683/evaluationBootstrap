@@ -1,11 +1,15 @@
 body {
   min-height: 100vh;
   font-family:'Segoe UI', sans-serif;
+  display: block;
 }
 header {
   position: relative;
   height: 20%;
   
+}
+nav {
+  position: fixed;
 }
 
 nav .navbarbrand {
