@@ -6,7 +6,22 @@ body {
 }
 
 header {
+<<<<<<< HEAD
   height: 20%;
+=======
+  position: relative;
+  min-height: 5em;
+  background-image: url(images/header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+header p {
+  position: absolute;
+  color: #e6db49;
+  bottom: 0;
+  right: 0;
+>>>>>>> header
 }
 
 nav {
@@ -21,6 +36,7 @@ nav .navbarbrand {
   font-size: 2em;
   font-weight: 700;
   font-family: Georgia, Times, "Times New Roman", serif;
+<<<<<<< HEAD
 }
 
 section {
@@ -30,4 +46,6 @@ section {
   margin: auto;
   grid-template-rows: 1f;
   grid-template-columns: 1f;
+=======
+>>>>>>> header
 }/*# sourceMappingURL=style.css.map */

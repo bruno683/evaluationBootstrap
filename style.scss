@@ -6,9 +6,23 @@ body {
   
 }
 header {
+<<<<<<< HEAD
   //position: relative;
   height: 20%;
+=======
+  position: relative;
+  min-height: 5em;
+  background-image: url(images/header.jpg);
+  background-position: center ;
+  background-size: cover;
+}
+header p{
+  position: absolute;
+  color: rgb(230, 219, 73);
+>>>>>>> header
   
+  bottom: 0;
+  right: 0; 
 }
 nav {
   position: fixed;
