@@ -6,10 +6,17 @@ body {
 
 header {
   position: relative;
-  height: 20%;
-<<<<<<< HEAD
-  background-color: rgba(173, 216, 230, 0.164);
-=======
+  min-height: 5em;
+  background-image: url(images/header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+header p {
+  position: absolute;
+  color: #e6db49;
+  bottom: 0;
+  right: 0;
 }
 
 nav {
@@ -20,5 +27,4 @@ nav .navbarbrand {
   font-size: 2em;
   font-weight: 700;
   font-family: Georgia, Times, "Times New Roman", serif;
->>>>>>> stylising-navbar
 }/*# sourceMappingURL=style.css.map */
