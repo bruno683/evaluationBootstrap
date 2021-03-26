@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   min-height: 100vh;
   font-family: "Segoe UI", sans-serif;
@@ -6,22 +10,22 @@ body {
 }
 
 header {
-<<<<<<< HEAD
-  height: 20%;
-=======
   position: relative;
-  min-height: 5em;
-  background-image: url(images/header.jpg);
-  background-position: center;
+  background-image: url(images/header2.jpg);
+  width: 100%;
+  min-height: 30vh;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header p {
   position: absolute;
-  color: #e6db49;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
   bottom: 0;
   right: 0;
->>>>>>> header
+  z-index: 2;
 }
 
 nav {
@@ -36,16 +40,21 @@ nav .navbarbrand {
   font-size: 2em;
   font-weight: 700;
   font-family: Georgia, Times, "Times New Roman", serif;
-<<<<<<< HEAD
 }
 
 section {
   width: 80%;
   height: 100%;
-  background: linear-gradient(45deg, #3498db, #2980b9);
+  background: linear-gradient(-45deg, #dbdde0, #a7b1bb);
   margin: auto;
   grid-template-rows: 1f;
   grid-template-columns: 1f;
-=======
->>>>>>> header
+}
+
+.card {
+  box-shadow: 5px 5px 10px #467692;
+}
+
+footer {
+  background: linear-gradient(60deg, #3b3a3a, #5a5858);
 }/*# sourceMappingURL=style.css.map */
