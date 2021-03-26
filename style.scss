@@ -1,9 +1,23 @@
 body {
   min-height: 100vh;
   font-family:'Segoe UI', sans-serif;
+  display: block;
 }
 header {
   position: relative;
   height: 20%;
+<<<<<<< HEAD
   background-color: rgba(173, 216, 230, 0.164);
+=======
+  
+}
+nav {
+  position: fixed;
+}
+
+nav .navbarbrand {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+>>>>>>> stylising-navbar
 }
