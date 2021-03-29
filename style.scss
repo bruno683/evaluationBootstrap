@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   min-height: 100vh;
   font-family:'Segoe UI', sans-serif;
@@ -22,7 +21,7 @@ header p{
   position: absolute;
   color: rgb(255, 255, 255);
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 2em;
   font-family: kunstler script, sans-serif;
   bottom: 0;
   right: 0; 
@@ -37,7 +36,6 @@ nav {
   z-index: 1030;
   
 }
-
 nav .navbarbrand {
   font-size: 2em;
   font-weight: 700;
