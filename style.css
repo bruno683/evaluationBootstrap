@@ -43,35 +43,48 @@ nav .navbarbrand {
   font-family: showcard gothic, sans-serif;
 }
 
+h1, h2 {
+  text-align: center;
+}
+
+h1, h2, p {
+  font-family: DejaVu serif, sans-serif;
+}
+
 section {
-  width: 80%;
   height: 100%;
   background: #dbdde0;
-  margin: auto;
   grid-template-rows: 1f;
   grid-template-columns: 1f;
+  text-align: justify;
+}
+
+section, .card, aside, .list-group, .imgClub {
+  width: 80%;
+  margin: auto;
 }
 
 .card {
   box-shadow: 5px 5px 10px #467692;
-  width: 80%;
 }
 
 .card-text {
   text-align: justify;
 }
 
-aside {
-  width: 80%;
-  margin: auto;
-  background: #dbdde0;
-}
-
-.list-group {
-  width: 80%;
-  margin: auto;
+.imgClub {
+  height: 80%;
+  padding: 5;
 }
 
 footer {
+  min-height: 20vh;
   background: linear-gradient(60deg, #3b3a3a, #5a5858);
+}
+
+.contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
