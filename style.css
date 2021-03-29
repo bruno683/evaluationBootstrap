@@ -22,7 +22,8 @@ header p {
   position: absolute;
   color: white;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 2rem;
+  font-family: kunstler script, sans-serif;
   bottom: 0;
   right: 0;
   z-index: 2;
@@ -39,7 +40,7 @@ nav {
 nav .navbarbrand {
   font-size: 2em;
   font-weight: 700;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: showcard gothic, sans-serif;
 }
 
 section {
