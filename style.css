@@ -56,6 +56,10 @@ section {
   box-shadow: 5px 5px 10px #467692;
 }
 
+.card-text {
+  text-align: justify;
+}
+
 footer {
   background: linear-gradient(60deg, #3b3a3a, #5a5858);
 }/*# sourceMappingURL=style.css.map */

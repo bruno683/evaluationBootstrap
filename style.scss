@@ -27,6 +27,7 @@ header p{
   bottom: 0;
   right: 0; 
   z-index: 2;
+  
 }
 nav {
   position: fixed;
@@ -53,6 +54,9 @@ section {
 
 .card {
   box-shadow: 5px 5px 10px rgb(70, 118, 146);
+}
+.card-text {
+  text-align: justify;
 }
 
 footer {
