@@ -6,7 +6,6 @@ body {
   font-family:'Segoe UI', sans-serif;
   display: block;
   position: relative;
-  
 }
 header {
   position: relative;
@@ -16,7 +15,6 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 header p{
   position: absolute;
   color: rgb(255, 255, 255);
@@ -26,7 +24,6 @@ header p{
   bottom: 0;
   right: 0; 
   z-index: 2;
-  
 }
 nav {
   position: fixed;
@@ -34,7 +31,6 @@ nav {
   left: 0;
   right: 0;
   z-index: 1030;
-  
 }
 nav .navbarbrand {
   font-size: 2em;
@@ -44,19 +40,27 @@ nav .navbarbrand {
 section {
   width: 80%;
   height: 100%;
-  background: linear-gradient(-45deg,#dbdde0,#a7b1bb);
+  background: #dbdde0;
   margin: auto;
   grid-template-rows: 1f;
   grid-template-columns: 1f;
 }
-
 .card {
   box-shadow: 5px 5px 10px rgb(70, 118, 146);
+  width: 80%;
 }
 .card-text {
   text-align: justify;
 }
-
+aside {
+  width: 80%;
+  margin: auto;
+  background: #dbdde0;
+}
+.list-group {
+  width: 80%;
+  margin: auto;
+}
 footer {
   background: linear-gradient(60deg, rgb(59, 58, 58), rgb(90, 88, 88));
 }
