@@ -45,6 +45,7 @@ nav .navbarbrand {
 
 h1, h2 {
   text-align: center;
+  text-decoration: underline;
 }
 
 h1, h2, p {
@@ -53,7 +54,6 @@ h1, h2, p {
 
 section {
   height: 100%;
-  background: #dbdde0;
   grid-template-rows: 1f;
   grid-template-columns: 1f;
   text-align: justify;
@@ -73,7 +73,6 @@ section, .card, aside, .list-group, .imgClub {
 }
 
 .imgClub {
-  height: 80%;
   padding: 5;
 }
 

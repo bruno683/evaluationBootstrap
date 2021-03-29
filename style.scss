@@ -39,18 +39,18 @@ nav .navbarbrand {
 }
 h1, h2{  
   text-align: center;
+  text-decoration: underline;
 }
 h1, h2, p{
   font-family: DejaVu serif, sans-serif;
 }
 section {
   height: 100%;
-  background: #dbdde0;
   grid-template-rows: 1f;
   grid-template-columns: 1f;
   text-align: justify;
 }
-section,.card, aside, .list-group, .imgClub{
+section,.card, aside, .list-group, .imgClub {
   width: 80%;
   margin: auto;
 }
@@ -61,11 +61,10 @@ section,.card, aside, .list-group, .imgClub{
   text-align: justify;
 }
 .imgClub {
-  height: 80%;
+  //height: 80%;
   padding: 5;
 }
 footer {
- 
   min-height: 20vh;
   background: linear-gradient(60deg, rgb(59, 58, 58), rgb(90, 88, 88));
 }
@@ -74,6 +73,4 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
-  //margin: auto;
-  //padding-top: 5%,;
 }
