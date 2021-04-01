@@ -67,7 +67,7 @@ article {
   flex-flow: row nowrap;
 }
 
-.cardcontent {
+.card {
   flex: 1;
   box-shadow: 5px 5px 10px #467692;
 }
@@ -87,8 +87,8 @@ footer {
 
 .contents {
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
+  flex-flow: row;
+  justify-content: space-evenly;
   width: 100%;
 }
 
@@ -139,6 +139,6 @@ footer {
 
   header {
     background-position: top 38% center;
-    height: 50vh;
+    height: 20vh;
   }
 }/*# sourceMappingURL=style.css.map */
