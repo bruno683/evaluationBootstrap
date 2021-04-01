@@ -18,15 +18,12 @@ header {
   background-repeat: no-repeat;
 }
 
-header p {
-  position: absolute;
-  color: white;
+.soustitre p {
+  text-align: center;
+  color: black;
   font-weight: 700;
   font-size: 2em;
   font-family: kunstler script, sans-serif;
-  bottom: 0;
-  right: 0;
-  z-index: 2;
 }
 
 nav {
@@ -52,14 +49,14 @@ h1, h2, p {
   font-family: DejaVu serif, sans-serif;
 }
 
-section {
+.container {
   height: 100%;
   grid-template-rows: 1f;
   grid-template-columns: 1f;
   text-align: justify;
 }
 
-section, .card, aside, .list-group, .imgClub {
+.container, .card, aside, .list-group, .imgClub {
   width: 80%;
   margin: auto;
 }
@@ -86,4 +83,19 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  article {
+    flex: 2;
+  }
+
+  aside {
+    flex: 1;
+  }
 }/*# sourceMappingURL=style.css.map */
