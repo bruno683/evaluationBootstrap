@@ -85,17 +85,31 @@ footer {
   width: 100%;
 }
 
-@media only screen and (min-width: 1024px) {
-  .container {
+@media only screen and (min-width: 800px) {
+  .bodycontent {
     display: flex;
-    flex-direction: row;
+    flex-flow: row nowrap;
   }
 
   article {
-    flex: 2;
+    display: flex;
+    flex: auto;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .list-group {
+    display: flex;
+    flex: auto;
   }
 
   aside {
-    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0%;
+  }
+
+  header {
+    background-position: top 38% center;
   }
 }/*# sourceMappingURL=style.css.map */
