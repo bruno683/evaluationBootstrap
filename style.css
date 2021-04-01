@@ -13,9 +13,10 @@ header {
   position: relative;
   background-image: url(images/header2.jpg);
   width: 100%;
-  min-height: 30vh;
+  height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top 35% center;
 }
 
 .soustitre p {
@@ -49,19 +50,25 @@ h1, h2, p {
   font-family: DejaVu serif, sans-serif;
 }
 
-.container {
+.bodycontent {
   height: 100%;
   grid-template-rows: 1f;
   grid-template-columns: 1f;
   text-align: justify;
 }
 
-.container, .card, aside, .list-group, .imgClub {
+.bodycontent, .card, aside, .list-group, .imgClub {
   width: 80%;
-  margin: auto;
+  margin: 5%;
 }
 
-.card {
+article {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.cardcontent {
+  flex: 1;
   box-shadow: 5px 5px 10px #467692;
 }
 
@@ -80,36 +87,58 @@ footer {
 
 .contents {
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
   justify-content: space-around;
   width: 100%;
 }
 
-@media only screen and (min-width: 800px) {
-  .bodycontent {
-    display: flex;
-    flex-flow: row nowrap;
+@media screen and (min-width: 768px) {
+  #bodycontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "a b" "a . ";
   }
 
   article {
-    display: flex;
-    flex: auto;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-  }
-
-  .list-group {
-    display: flex;
-    flex: auto;
+    grid-area: a;
   }
 
   aside {
-    display: flex;
-    justify-content: flex-start;
-    margin: 0%;
+    grid-area: b;
+  }
+
+  header {
+    background-position: top 25% center;
+    min-height: 40vh;
+  }
+
+  .list-group {
+    height: 60%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #bodycontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "a a b" "a a .";
+  }
+
+  article {
+    grid-area: a;
+  }
+
+  aside {
+    grid-area: b;
+  }
+
+  .list-group {
+    height: 60%;
   }
 
   header {
     background-position: top 38% center;
+    height: 50vh;
   }
 }/*# sourceMappingURL=style.css.map */
