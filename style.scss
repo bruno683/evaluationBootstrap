@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  min-height: 100vh;
+  height: 100vh;
   font-family:'Segoe UI', sans-serif;
   display: block;
   position: relative;
@@ -51,9 +51,9 @@ h1, h2, p{
   
 }
 .bodycontent, .card, aside, .list-group, .imgClub {
-  width: 80%;
+  //width: 80%;
   margin: 5%;
-  
+  margin-bottom: 2%;
 }
 article {
   display: flex;
@@ -68,7 +68,7 @@ article {
   text-align: justify;
 }
 .imgClub {
-  //height: 80%;
+  height: 80%;
   padding: 5;
 }
 footer {
@@ -83,6 +83,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+  
   #bodycontent {
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -100,6 +101,7 @@ footer {
   aside {
     grid-area: b;
   }
+  
 
   header {
     background-position: top 25% center;
@@ -116,7 +118,7 @@ footer {
     grid-template-rows: 1fr 1fr ;
     grid-template-areas: 
     "a a b"
-    "a a ."
+    "a a b"
     ;
   }
 
