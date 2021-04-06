@@ -67,7 +67,6 @@ h1, h2, p {
 
 article {
   display: flex;
-  flex-flow: row nowrap;
 }
 
 .card {
