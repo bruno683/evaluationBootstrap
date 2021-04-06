@@ -2,14 +2,13 @@
   box-sizing: border-box;
 }
 
-body {
+html {
+  width: 100vh;
   height: 100vh;
-  font-family: "Segoe UI", sans-serif;
-  display: block;
-  position: relative;
 }
 
-main {
+body {
+  font-family: "Segoe UI", sans-serif;
   position: relative;
 }
 
@@ -30,7 +29,7 @@ header {
   font-family: kunstler script, sans-serif;
 }
 
-nav {
+nav.navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -69,6 +68,10 @@ article {
   display: flex;
 }
 
+table {
+  margin: auto;
+}
+
 .card {
   flex: 1;
   box-shadow: 5px 5px 10px #467692;
@@ -84,7 +87,6 @@ article {
 }
 
 footer {
-  position: relative;
   bottom: 0%;
   left: 0;
   right: 0;
@@ -98,6 +100,12 @@ footer {
   flex-flow: column;
   justify-content: space-evenly;
   width: 100%;
+}
+
+img.vianney {
+  float: left;
+  width: 10%;
+  height: 10%;
 }
 
 @media screen and (min-width: 768px) {
@@ -135,14 +143,13 @@ footer {
   main {
     height: 100%;
     width: 100%;
-    margin: auto;
   }
 
   #bodycontent {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "a a b" "a a b";
+    grid-template-areas: "a a b" "a a .";
     text-align: center;
   }
 
@@ -160,7 +167,11 @@ footer {
 
   header {
     background-position: top 38% center;
-    padding-bottom: -10%;
+    height: 5%;
     width: 100%;
+  }
+
+  footer {
+    height: 50%;
   }
 }/*# sourceMappingURL=style.css.map */

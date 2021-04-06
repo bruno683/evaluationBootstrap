@@ -1,15 +1,17 @@
 * {
   box-sizing: border-box;
 }
-body {
+html {
+  width: 100vh;
   height: 100vh;
+}
+body {
   font-family:'Segoe UI', sans-serif;
-  display: block;
   position: relative;
 }
-main {
-  position: relative;
-}
+
+
+
 header {
   background-image: url(images/header2.jpg);
   width: 100%;
@@ -26,12 +28,12 @@ header {
   font-family: kunstler script, sans-serif;
  
 }
-nav {
+nav.navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1030;
+  z-index: 1030; 
 }
 nav .navbarbrand {
   font-size: 2em;
@@ -58,8 +60,13 @@ h1, h2, p{
   margin-bottom: 2%;
 }
 article {
+  
   display: flex;
 }
+table {
+  margin: auto;
+}
+
 .card {
   flex: 1;
   box-shadow: 5px 5px 10px rgb(70, 118, 146);
@@ -68,12 +75,14 @@ article {
 .card-text {
   text-align: justify;
 }
+
 .imgClub {
   height: 80%;
   padding: 5;
 }
+
 footer {
-  position: relative;
+  
   bottom: 0%;
   left: 0;
   right: 0;
@@ -81,13 +90,18 @@ footer {
   min-height: 20%;
   background: linear-gradient(60deg, rgb(59, 58, 58), rgb(90, 88, 88));
 }
+
 .contents {
   display: flex;
   flex-flow: column;
   justify-content: space-evenly;
   width: 100%;
 }
-
+img.vianney {
+  float: left;
+  width: 10%;
+  height: 10%;
+}
 @media screen and (min-width: 768px) {
 
   #bodycontent {
@@ -126,7 +140,7 @@ footer {
   main {
     height: 100%;
     width: 100%;
-    margin: auto;
+    
   }
   #bodycontent {
     display: grid;
@@ -134,30 +148,33 @@ footer {
     grid-template-rows: 1fr 1fr ;
     grid-template-areas: 
     "a a b"
-    "a a b"
+    "a a ."
     ;
     text-align: center;
   }
 
   article {
     grid-area: a;
+
   }
   
   aside {
     grid-area: b;
-    
-    
   }
+
   .list-group {
     height: 60%;
     
   }
+
   header {
     background-position: top 38% center;
-    padding-bottom: -10%;
+    height: 5%;
     width: 100%;
   }
-  
+  footer {
+    height: 50%;
+  }
 
 }
 
