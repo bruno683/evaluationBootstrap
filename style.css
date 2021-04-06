@@ -15,6 +15,7 @@ body {
   height: 100vh;
   font-family: "Segoe UI", sans-serif;
   display: block;
+  overflow-x: hidden;
 }
 
 main {
