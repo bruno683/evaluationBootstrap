@@ -69,7 +69,7 @@ h1, h2, p {
   text-align: justify;
 }
 
-.contents, .card, aside, .list-group, .imgClub {
+.card, aside, .list-group, .imgClub {
   margin: 5%;
   margin-bottom: 2%;
 }
