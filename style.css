@@ -100,7 +100,6 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  margin-top: 20%;
   min-height: 20%;
   background: linear-gradient(60deg, #3b3a3a, #5a5858);
   color: antiquewhite;
@@ -123,7 +122,7 @@ img.vianney {
   #bodycontent {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr auto;
+    grid-template-rows: 1fr auto;
     grid-template-areas: "a" "a" "b";
     width: 100%;
   }
