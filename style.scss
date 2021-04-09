@@ -57,18 +57,19 @@ h1, h2, p{
   font-family: DejaVu serif, sans-serif;
 }
 .bodycontent {
-  height: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
   grid-template-rows: 1f;
   grid-template-columns: 1f;
   text-align: justify;
   
 }
- .card, aside, .list-group, .imgClub {
-  margin: 5%;
-  margin-bottom: 2%;
-}
+
 article {
   display: flex;
+  padding: 0;
+  margin: 0;
 }
 table {
   margin: auto;
@@ -131,7 +132,7 @@ img.vianney {
     grid-template-rows: 1fr  ;
     grid-template-areas: 
     "a b"
-    "a . "
+    
     ;
   }
 
@@ -153,37 +154,34 @@ img.vianney {
     height: 60%;
   }
   footer {
-    margin-top: 25%;
+    margin: 0;
     flex-direction: row;
   }
 }
 @media screen and (min-width: 1000px){
   
   main {
-    margin: auto;
+    margin: 0;
   }
   #bodycontent {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr ;
     grid-template-areas: 
     "a a b"
-    "a a ."
     ;
     text-align: center;
   }
 
   article {
     grid-area: a;
+    
 
   }
   
   aside {
     grid-area: b;
-  }
-
-  .list-group {
-    height: 60%;
+    
   }
 
   header {
