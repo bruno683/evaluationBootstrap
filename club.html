@@ -72,9 +72,35 @@
         <p class="bg-warning p-2 rounded">Adhésion 10€/an puis 6€ la séance.</p>
         <hr>
         <div class="d-flex justify-content-center p-2">
-          <button class="btn btn-success">En savoir plus</button>
+          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#clubModal">
+            Demande d'inscription
+          </button>
+          <!-------------------------ModalWindow----------------------------------------------------------------->
+        <div class="modal fade" id="clubModal"  tabindex="-1" aria-labelledby="formulaireModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="formulaireModal">Formulaire de contact</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form class="form-group">
+                  <label for="emailInput">Votre adresse email</label>
+                  <input type="email" class="form-control" id="emailInput" placeholder="entrez votre adresse email" required>
+                  <label for="phoneNumber">Votre numero de téléphone</label>
+                  <input type="tel" class="form-control" id="phoneNumber" placeholder="votre numero de portable ou fixe">
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                <button type="button" class="btn btn-success">Envoyer</button>
+              </div>
+            </div>
+          </div>
         </div>
-        
+        </div>
       </article>
     
       <aside class="container  py-5">
