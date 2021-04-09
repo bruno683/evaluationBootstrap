@@ -94,7 +94,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  min-height: 20%;
+  //min-height: 20%;
   background: linear-gradient(60deg, rgb(59, 58, 58), rgb(90, 88, 88));
   color: antiquewhite;
 }
@@ -117,7 +117,6 @@ img.vianney {
     grid-template-rows: 1fr auto;
     grid-template-areas: 
     "a"
-   //"a"
     "b"
     ;
     width: 100%;
@@ -152,8 +151,11 @@ img.vianney {
     height: 60%;
   }
   footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
     margin: 0;
-    flex-direction: row;
   }
 }
 @media screen and (min-width: 1000px){

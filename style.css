@@ -100,7 +100,6 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  min-height: 20%;
   background: linear-gradient(60deg, #3b3a3a, #5a5858);
   color: antiquewhite;
 }
@@ -154,8 +153,11 @@ img.vianney {
   }
 
   footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
     margin: 0;
-    flex-direction: row;
   }
 }
 @media screen and (min-width: 1000px) {
