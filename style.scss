@@ -114,10 +114,10 @@ img.vianney {
   #bodycontent{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto;// auto;
+    grid-template-rows: 1fr auto;
     grid-template-areas: 
     "a"
-    "a"
+   //"a"
     "b"
     ;
     width: 100%;
@@ -131,7 +131,6 @@ img.vianney {
     grid-template-rows: 1fr  ;
     grid-template-areas: 
     "a b"
-    
     ;
   }
 
