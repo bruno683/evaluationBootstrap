@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 html {
@@ -129,19 +128,19 @@ img.vianney {
   .video-responsive {
     display: flex;
     flex-direction: column;
-    margin: 5%;
     width: 100%;
     height: 100%;
     overflow-y: scroll;
   }
 
-  .video-responsive.video-title {
-    width: 50%;
+  .video-responsive .video-title {
+    margin: auto;
+    width: 80%;
   }
 
-  .video-responsive > .video-title > iframe {
+  .video-responsive .video-title > iframe {
     padding: 5%;
-    width: 45%;
+    width: 100%;
   }
 
   .nav ul {
